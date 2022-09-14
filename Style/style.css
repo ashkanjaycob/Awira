@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: josefont;
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+@font-face {
+    font-family: josefont-bold;
+    src: url(../fonts/Cabin-Bold.ttf);
+}
+@font-face {
+    font-family: josefont-semibold;
+    src: url(../fonts/Cabin-SemiBold.ttf);
+}
+
+    /* AWIRA SPACIAL CSS STYLES  */
+
+.josefont {
+    font-family: 'josefont', sans-serif;
+}
+.josefont-bold {
+    font-family: 'josefont-bold', sans-serif;
+}
+.josefont-semibold {
+    font-family: 'josefont-semibold', sans-serif;
+}
+.mobile-container {
+    padding: 12px;
+}
+.h1 {
+    font-size: 3.8rem;
+    text-transform: uppercase;
+}
+.h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.white {
+    color: white;
+}
+.w-50 {
+    width: 50%;
+}
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    color: white;
+    background-color: #5836E6;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+
+    /* HEADER CSS CODES  */
+
+#header {
+    background: url(../Images/Phone-Back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav i {
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+}
+.header-text {
+    padding-top: 60px;
+    text-align: center;
+}
+.header-pic {
+    text-align: center;
+}
+.header-pic img {
+    border-radius: 20px;
+    width: 85%;
+}
+.header-btn {
+    text-align: center;
+    padding: 40px 0;
+}
+.angle {
+    text-align: center;
+}
+#angle-down {
+    font-size: 2.4rem;
+    color: white;
+    padding: 20px 0;
+}
+
+
+
+
+@media screen and (min-width:520px) {
+
+    
+}
